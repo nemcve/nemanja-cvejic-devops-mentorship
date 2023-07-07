@@ -1,4 +1,4 @@
-# Task-6 DevOps Mentorship Program
+# Week-7 DevOps Mentorship Program
 Topics: Cloud, Amazon Web Services (AWS), EC2, AWS CLI, IAM Users, IAM Groups, IAM Policy, Security Groups, Cloudwatch <br>
 Homework: Deployment of a NodeJS app to an AWS EC2 instance with Nginx reverse proxy <br>
 
