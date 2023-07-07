@@ -1,3 +1,6 @@
-# Week-3 DevOps Mentorship Program
-Topic: Bash scripting <br>
-Homework: Practicing scripts from chapters 13, 14, 15, and 16 of the book Linux Command Line and Shell Scripting Bible, by Richard Blum and Christine Bresnahan
+# Week-5 DevOps Mentorship Program
+Topics: Web Servers, Application Servers, NGINX, Apache, SSL/TLS <br>
+Homework: Running NodeJS application on localhost using Nginx with reverse proxy<br>
+
+NodeJS app running on Nginx : 
+<img src="./images/nodejs-app-nginx.JPG">

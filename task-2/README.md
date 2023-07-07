@@ -1,3 +1,3 @@
-# Week-2 DevOps Mentorship Program
-Topics: Linux, UNIX <br>
-Homework: Solving https://overthewire.org/wargames/bandit/ levels 1–10, and documenting all the commands used inside bash-notes.md
+# Week-3 DevOps Mentorship Program
+Topic: Bash scripting <br>
+Homework: Practicing scripts from chapters 13, 14, 15, and 16 of the book Linux Command Line and Shell Scripting Bible, by Richard Blum and Christine Bresnahan
