@@ -8,7 +8,7 @@ Application Load Balancer :
 Auto Scaling Group : 
 <img src="./images/awsautoscalingroup.JPG">
 
-Accessing a web server through an application load balancer's DNS : 
+Accessing a web server through an application load balancer's DNS name : 
 <img src="./images/awsloadbalancerwebpage.JPG">
 
 Diagram created with Lucidchart : 
