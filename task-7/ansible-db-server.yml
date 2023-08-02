@@ -1,0 +1,13 @@
+- name: Instaliraj, startuj, i enable-uj MySQL na EC2 instanci database servera 
+  hosts: dbserver
+  become: true
+  tasks:
+    - name: Instalacija MySQL-a
+      ansible.builtin.shell: |
+        yum install -y mysql
+        yum install -y mysql-server
+    - name: Startovanje i enable mysqld-a
+      ansible.builtin.shell: |
+        systemctl start mysqld
+        systemctl enable mysqld
+        

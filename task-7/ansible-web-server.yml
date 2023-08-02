@@ -1,0 +1,15 @@
+- name: Instalacija, startovanje i enable NGINX-a na EC2 instanci web servera
+  hosts: webserver
+  become: true
+  tasks:
+    - name: Instalacija NGINX-a
+      dnf:
+        name: nginx
+        state: latest
+    - name: Startovanje i enable NGINX-a, ispis teksta unutar index.html fajla NGINX-a
+      ansible.builtin.shell: |
+        systemctl start nginx
+        systemctl enable nginx
+        echo "Hello from nginx web server created using Packer, Terraform and Ansible" > /usr/share/nginx/html/index.html
+        exit 0    
+        
